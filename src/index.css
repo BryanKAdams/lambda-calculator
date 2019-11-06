@@ -10,3 +10,95 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+.container{
+  height: 700px;
+}
+.App{
+  display: flex;
+  flex-direction: row;
+  height: 70%;
+  margin: 0 auto;
+  padding: 40px 40px;
+}
+.App div:nth-child(1) div{
+  display: flex;
+  flex-direction: row ;
+  width: 100%;
+}
+.App div:nth-child(1){
+  display:flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 0 auto;
+}
+.App div:nth-child(2){
+  display:flex;
+  flex-direction: column;
+  width: 25%
+}
+
+
+.App div:nth-child(3){
+  display:flex;
+  flex-direction: column;
+  width: 40px;
+}
+.App div:nth-child(2){
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.App div:nth-child(2) button:nth-child(10){
+  width: 68%
+}
+.special_button{
+  width: 26%;
+  color: white;
+  background-color: royalblue;
+  border: 0px solid white;
+  border-radius: 1000px;
+  box-shadow: 0px 4px black;
+  height: 90px
+
+}
+.operator_button{
+  width: 100%;
+  color: white;
+  background-color:steelblue;
+  border: 0px solid white;
+  border-radius: 1000px;
+  box-shadow: 0px 4px black;
+  height: 90px;
+  margin-bottom: 8px;
+
+}
+.number_button{
+  width: 26%;
+  color: white;
+  background-color: rgb(7, 48, 115);
+  border: 0px solid white;
+  border-radius: 1000px;
+  box-shadow: 0px 4px black;
+  height: 90px;
+  
+
+}
+.App div:nth-child(1) div:nth-child(1){
+  height: 20%;
+  justify-content: space-between;
+}
+.App div:nth-child(1) div:nth-child(2){
+  height: 80%;
+  justify-content: space-between;
+}
+.display{
+  margin: 0 auto;
+}
+.App div:nth-child(2) div{
+  padding-left: 20px;
+}
+button{
+  font-size: 2rem;
+}
